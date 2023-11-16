@@ -1,0 +1,93 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #fff5ee;
+}
+section{
+}
+.pimg1{
+    background-image: url(images/adventure.webp);
+    min-height: 100%;
+   
+}
+.pimg2{
+    background-image: url(images/nature.avif);
+    min-height: 400px;
+   
+}
+.pimg3{
+    background-image: url(images/mount.jpg);
+    min-height: 400px;
+   
+}
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: .5em;
+    color: #000;
+    text-transform: uppercase;
+}
+.textBg{
+    background-color: #ffffe0;
+
+    padding: 1.25em;
+    /* color: #000080; */
+    color: #006600;
+   
+}
+.section{
+    padding: 3.125em 5em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.section_1{
+    /* Background: #00ffff; color: #000000; */
+    background-color: #7fff00;
+    color: #006600;
+}
+.section_2{
+    /* background-color: #99ccff;
+    color: #006600; */
+    background-color: #fff5ee;
+    color: #7fff00;
+}
+@media (max-width:468px) {
+    .pimg1,
+    .pimg2,
+    .pimg3{
+        background-attachment: scroll;
+    }
+   
+    .section{
+        padding: 3.125em .625em;
+    }
+    
+}
+@media (max-width:615px) {
+    .ptext{
+        font-size: 1rem;
+        letter-spacing: 4px;
+    }
+    .pimg1{
+        min-height: 50%;
+    }
+    
+}

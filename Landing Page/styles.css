@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background: url(images/computer.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section_1{
+    padding-top: 9em;
+    padding-left: 6em;
+    color: #fff;
+
+}
+.section_1 h2{
+    font-size: 2rem;
+}
+.h2-text{
+    color: #FF6F00;
+    font-size: 3rem;
+}
+.section_1 h1{
+    font-size: 2.5rem;
+    color: #FF6F00;
+}
+.section_1 button{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    outline: none;
+    border: 1px solid  transparent;
+    border-radius: 8px;
+    padding: 1em 2em;
+    background-color: orange ;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+}
+.section_1 button:hover{
+    background: #FF6F00;
+    transition: .3s ease-in-out;
+    border: 1px solid #FF6F00;
+
+}
+.image_container,img{
+    height: auto;
+    width: 420px;
+    /* max-width: 100%; */
+}
+.about{
+    width: 100%;
+    padding: 4.3em 0;
+    background-color: #b2ebf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_us{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.about_us h3{
+    font-size: 5rem;
+    color: #197cd2;
+    text-transform: capitalize;
+    margin-bottom: .1em;
+}
+.about_us h4{
+    color:  #1565C0;
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+    letter-spacing: 2px;
+}
+h4 span{
+    color:  #FF6F00;
+}
+.about_text{
+    width: 550px;
+    /* max-width: 100%; */
+
+}
+.about_text p{
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 1.2rem;
+    margin-bottom: 2.8em;
+}
+.about_text button{
+    background-color: #FF6F00;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 700;
+    padding: .8em 2em;
+    border-radius: 30px;
+    transition: .4s;
+}
+.about_text button:hover{
+    background: transparent;
+    border: 2px solid #FF6F00;
+    cursor: pointer;
+    color: #FF8F00;
+    transform: scale(1.1);
+}
+.title h3{
+    text-align: center;
+    font-size: 2.6rem;
+    padding-top: 2em;
+    color: #9fdbe7;
+    font-weight: 500;
+}
+.title h3::after{
+    content: "";
+    background-color: #FF6F00;
+    width: 120px;
+    height: 4px;
+    display: block;
+    margin: auto;
+}
+.card{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.6em auto;
+    text-align: center;
+}
+.card .icon{
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+.card_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em 1.25em;
+    margin:  0 1.25em;
+    background-color:#e6e6e6 ;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.card_content:hover{
+    background-color: #89c4ff;
+    scale: 1.04;
+    /* box-shadow: 5px 5px #e6e6e6, 10px 10px #15656c, 15px 15px #ff6f00; */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+.card_content h4{
+    font-size: 1.8rem;
+    margin-bottom: .8em;
+    color: #FF6F00;
+}
+.card_content p{
+    font-size: 1rem;
+    margin-bottom: 1.8em;
+    line-height: 1.5;
+    color: #333;
+}
+.card_content button{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    padding: .5em .8em;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #1565C0;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.card_content button:hover{
+    background-color: #FF6F00;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+}
+.mid{
+    text-align: center;
+    font-size: 3rem;
+    background-color: #b2ebf2;
+    padding: 1.5em 1em;
+}
+.mid button{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    padding: .5em .8em;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #1565C0;
+    border: none;
+    transition: .3s ease-in-out;
+
+}
+.mid button:hover{
+    background-color: #FF6F00;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+
+}
+.call-to-action {
+    text-align: center;
+    margin-top: 50px;
+   
+    margin-bottom: 50px;
+  }
+  
+  .call-to-action h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    width: 100%;
+    line-height: 30px;
+    letter-spacing: 1px;
+      
+      
+  }
+  
+  .call-to-action a {
+    background-color: #0099ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .call-to-action a:hover {
+    background-color: #0077cc;
+  }
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .social-media-links li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .social-media-links a {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  
+  .social-media-links a:hover {
+    color: #0099ff;
+  }
+  .copyright p{
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .copyright {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .copyright img {
+    margin: 0 auto;
+  }
+  
+  
+
+  
+
+/* TYPOGRAPHY */
+.section_1 h2{
+    font-size: 2rem;
+}
+.section_1 h1{
+    font-size: 4rem;
+}
+.section_1 h4{
+    font-size: .8rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1021px) {
+    img{
+        margin-bottom: 2em;
+    }
+    .about_us h3{
+        font-size: 3.75rem;
+        margin-bottom: .3em;
+    }
+    .about_text{
+        text-align: center;
+    }
+   
+}
+@media (max-width:759px) {
+    .hero{
+        min-height: 50vh;
+    }
+    
+}
+@media (max-width:436px) {
+    img{
+        width: 95%;
+    }
+    
+}
+@media (max-width:315px) {
+    .section_1{
+        text-align: center;
+        margin-left: -90px;
+    }
+    
+    .section_1 h4{
+        color: wheat ;   
+        font-weight: 900;
+    }
+ 
+}
+@media (max-width:612px) 
+{
+    .section_1 h4{
+        /* font-weight: 900; */
+    }
+
+}
+@media (max-width:940px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_content{
+        width: 85%;
+        display: flex;
+        margin: 1.2em 0;
+    }
+
+    
+}

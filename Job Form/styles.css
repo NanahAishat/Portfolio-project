@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    color: #333333;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply_job{
+    max-width: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 3.125em;
+    padding: 1.25em;
+    box-shadow: 4px 4px 7px #888888;
+    border-radius: 5px;
+}
+.apply_job h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
+    font-weight: 700;
+}
+.apply_job span{
+    font-family: 'Roboto', sans-serif;
+    font-size: .5em;
+}
+ .form_container{ 
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1.25em;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 1rem;
+    margin-bottom: .3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+input,select,textarea{
+    padding: .4em .6em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+input:focus{
+    outline-color: #888888;
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.25em;
+}
+button{
+    padding: .4em .6em;
+    background-color: #4CAF50;
+    border: 2px solid #888888;
+    outline: none;
+    color: #fff;
+    border-radius: 8px;
+    transition: .3S ease-in;
+}
+button:hover{
+    background-color: #ddd;
+    transition: .3s ease-out;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    color: #000;
+}
+.textarea_control{
+    grid-column: 1 / span 2;
+} 
+.textarea_control textarea{
+    width: 100%;
+}
+@media (max-width:460px) {
+    .textarea_control{
+        grid-column: 1 / span 1;
+    }
+
+    
+}

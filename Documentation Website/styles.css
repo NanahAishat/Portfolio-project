@@ -1,0 +1,108 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+/* TYPOGRAPHY */
+h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: .625em;
+    text-align: center;
+    margin-top: .8em;
+    border-bottom: 1px solid #ccc;
+} 
+h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: .625em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: .8em;
+}
+
+p{
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+}
+section a:hover{
+    text-decoration: underline;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    font-size: 1.25rem;
+    padding: .625em;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+nav ul li:hover{
+    background: #ccc;
+    transition: .3s ease-in-out;
+}
+header{
+    /* height: 100%; */
+    border: 1px solid #eee;
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    width: 50%;
+    height: 100vh;
+    
+}
+/* MAIN */
+main{
+    position: absolute;
+    margin-left: 20em;
+    padding: 1.25em;
+    margin-bottom:4em ;
+}
+section{
+    margin-bottom: 3.125em;
+}
+section article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+article ul{
+    margin-left: 2em;
+}
+article ul li{
+    margin-bottom: .6em;
+}
+@media (max-width:480px) {
+    main{
+        display: block;
+        position: absolute;
+        margin-left: -1em;
+        margin-top: 40em;
+        width: 90%;
+    }
+    header{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        max-height: 250px;
+        overflow-y: visible;
+        border: none;
+
+    }
+    
+}
